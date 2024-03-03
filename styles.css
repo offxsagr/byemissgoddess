@@ -1,0 +1,53 @@
+body{
+    background: url(https://i.gifer.com/ZOHV.gif) ;
+   background-color: black; 
+   /* filter: drop-shadow(0 0 8px #fff); */
+}
+
+img{
+    height:30rem;
+    filter: drop-shadow(0 0 13px #fff);
+    
+}
+.container{
+    /* border:1px solid black; */
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+   position: relative; 
+   /* top: 205px; */
+   /* right:200px */
+   left: 140px;
+   top:40px;
+   width: 200px;
+   background: #fff;
+   border:none;
+   color: #a8686a;
+   font-weight: bold;
+   
+}
+.btn:hover{
+    background: #a8686a;
+    color: white;
+}
+.btn:active{
+    transform: scale(.9);
+   
+}
+@media(max-width:500px) {
+    .btn-smile{
+    left:35px;
+}
+    
+}
+@media(max-width:330px) {
+    .btn-smile{
+        left:15px;
+}
+    
+}
+
+
